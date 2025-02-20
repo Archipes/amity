@@ -65,6 +65,8 @@ if (hash === 'xiaoyi') {
     noButton.innerText = "不要";
 } else if (hash === 'zh1') {
     contentDiv.innerHTML = '<h2>可以跟豪豪酱和好嘛？</h2>';
+} else if (hash === 'zaodianshui') {
+    contentDiv.innerHTML = '<h2>小嘉, 可以跟我和好嘛？</h2>';
 } else {
     contentDiv.innerHTML = '<h2>可以跟我和好吗？</h2>';
 }
